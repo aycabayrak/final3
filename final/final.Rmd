@@ -64,17 +64,18 @@ Bu bölümde çalışmanızda kullandığınız veri setinin kaynağını, ham v
 
 Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'a aktaran ve özet istatistikleri üreten kodlar yer almalıdır.
 
-```{r}
+```{r, echo=FALSE}
 library(tidyverse)
 library(here)
-enflasyon_türkiye_kanada_fransa_almanya_italya_hollanda_isveç_avusturya_bk_abd_csv(here("../data/(enflasyon_türkiye_kanada_fransa_almanya_italya_hollanda_isveç_avusturya_bk_abd.csv"))
+eko <- read_csv(here("../data/eko.csv"))
+
 ```
 
 Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
 
 ```{r, echo=FALSE}
 library(xtable) 
-# devtools::install_github("emraher/summarytools")
+# devtools::install_github("aycabayrak/summarytools")
 library(summarytools)
 st_options(lang = "tr")
 ```
@@ -82,8 +83,8 @@ st_options(lang = "tr")
 `echo=FALSE` seçeneği ile kodların türetilen pdf dosyasında görünmesini engelleyin ve sonuçlarınızı tablo halinde rapor edin.
 
 ```{r results='asis', echo=FALSE}
-survey %>%
-  select("sex", "credits", "handedness", "height", "handspan") %>% 
+eko %>%
+  select("Value") %>% 
   descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
   xtable(caption = "Özet İstatistikler",
          label = "tab:ozet",
@@ -105,12 +106,12 @@ Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. �
 
 
 ```{r plot, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
-survey %>% 
-  ggplot(aes(x = handedness, y = handspan)) +
+eko %>% 
+  ggplot(aes(x = TIME, y = Value)) +
   geom_point() +
   geom_smooth() +
-  scale_x_continuous("Handedness") + 
-  scale_y_continuous("Handspan")
+  scale_x_continuous("TIME") + 
+  scale_y_continuous("Value")
 ```
 
 
