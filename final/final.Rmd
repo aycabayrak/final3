@@ -1,7 +1,7 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "Enflasyon ve Ekonomik Büyüme"
 author: 
-  - İsim Soyisim[^1]
+  -Ayca BAYRAK [^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -25,7 +25,8 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-  Bu bölümde çalışmanızın özetini yazınız.
+  
+  BU çalışmada enflasyon ile ekonomik büyümenin arasındaki ilişki araştırılmıştır. 2018-2022 yılları arasındaki veriler kullanılmıştır. Çalışmadan elde edilen bulgulara göre; enflasyon ekonomik büyümeyi negatif yönde etkilemektedir.
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
@@ -34,44 +35,39 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== NOTLAR ================================= -->
 <!-- ======================================================================= -->
-[^1]: Öğrenci Numarası, [Github Repo](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)
+[^1]: 21080375, [Github Repo](https://github.com/aycabayrak/final3)
 
-# Final Hakkında Önemli Bilgiler
-
-\colorbox{BurntOrange}{GITHUB REPO BAĞLANTINIZI BU DOSYANIN 37. SATIRINA YAZINIZ!}
-
-**Proje gönderimi, Github repo linki ile birlikte ekampus sistemine bir zip dosyası yüklenerek yapılacaktır. Sisteme zip dosyası yüklemezseniz ve Github repo linki vermezseniz ara sınav ve final sınavlarına girmemiş sayılırsınız.**
-
-**Proje klasörünüzü sıkıştırdıktan sonra (`OgrenciNumarasi.zip` dosyası) 9 Haziran 2023 23:59'a kadar *ekampus.ankara.edu.tr* adresine yüklemeniz gerekmektedir.**
-
-\colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
+Fiyat istikrarı ve ekonomik büyümenin gerçekleşmesi bir toplumun refah seviyesini belirlemede en önemli iki etkendir. Genel olarak iktisatta enflasyon, cari fiyat seviyesinde toplam talebin toplam arzdan fazla olmasıdır. Bunun sonucunda genel fiyat seviyesi yükselir ve toplam talep kısılarak toplam arza eşit bir duruma gelmiş olur. Enflasyonu fiyatlar genel seviyesinin yükselmesi olarak da adlandırırken dikkat etmemiz gereken husus fiyatlardaki her yükselişin enflasyon olmadığıdır. Önemli olan bu artışın sürekli ve büyük olmasıdır. Kısa sürede hızla yükselen fiyat seviyesinin bir süre sonra durulmasını enflasyon olarak tanımlayamayız. Enflasyonu iki başlık altında inceleyebiliriz: 1)Kaynaklarına Göre Enflasyon, 2) Hızlarına Göre Enflasyon.Kaynaklarına göre enflasyon; talep enflasyonu, maliyet enflasyonu
+olarak ikiye ayrılabiliriz.Hızlarına göre enflasyonu; hiperenflasyon ve belirsiz enflasyon olarak ikiye ayırabiliriz. Ekonomik büyüme, bir ekonomide üretim hacmindeki dönemsel artışlardır. Bu artışın en önemli belirleyicilerinden biri Gayri Safi Yurtiçi Hasıla’daki(GSYH) artıştır. Ekonomik büyüme, gelişmiş ülkelerin daha çok önem verdiği bir konudur. Gelişmekte olan ülkeler ise ekonomik kalkınma hususuna dikkat etmektedir. Ekonomik kalkınma, ekonomik büyümeyi içermekle birlikte işsizliğin azaltılması, gelir dengesizliğinin azaltılması gibi alanlara da önem vermektedir.
 
-
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Yaptığım araştırmada, enflasyon ile ekonomik büyümenin arasındaki ilişkiyi Türkiye ve OECD kurucu üyelerinden ABD, Birleşik Krallık, İsveç, Hollanda, Yunanistan, Almanya, Fransa, İtalya, İtalya ülkelerinin verilerini referans alarak araştırdım. Araştırmamda, OECD verilerinden yararlandım. Ülkelerin enflasyonu TÜFE verileri ile, ekonomik büyümeleri ise GSYH ile yorumlanmıştır. GSYH, kişi başına ABD doları ile; TÜFE ise yıllık büyüme oranı ile hesaplanmıştır. Veriler 2022 yılı baz alınarak hazırlanmıştır. Hala ortak bir görüşte karar kılınamamış olmakla birlikte birçok araştırma enflasyon ve ekonomik büyüme arasındaki bağı ele alır. 1980’lerin aksine son yıllarda, büyüme ve enflasyon arasında pozitif bir ilişki olduğu düşüncesi yaygınlaşmaya başlamıştır. İstikrarlı ekonomik büyüme, refah ve ekonomik kalkınma seviyenin arttırılması için önemlidir. Tam bu noktada enflasyon ve ekonomikbüyüme arasındaki ilişkiyi incelemek mevcut ekonominin işleyişini kontrol etmekte oldukça fayda sağlar.
 
 ## Literatür 
 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Enflasyon ve ekonomik büyüme üzerine yapılan çalışmaların kökleri klasik iktisat teorilerinden modern teorilere kadar uzanmaktadır. Bugün ekonomik büyümeyi ilerletmede enflasyonun göreli önemi bir tartışma konusu olmaya devam ediyor. Merkez bankalarının çoğu para politikaları, düşük enflasyon oranı ve yüksek ekonomik büyüme sağlamayı amaçlar. Yapısalcı görüş destekleyen iktisatçılar varken farklı bir bakış açısıyla bazı iktisatçılar parasalcı görüşü desteklemektedir.(Akgül ve Özdemir(2012)) Son zamanlarda yapılan araştırmalarda enflasyonun ekonomik büyümeyi olumsuz yönde etkilediği iddia edilse de daha öneki çalışmalar enflasyonun ekonomik büyümeyi olumlu yönde etkilediğini öne sürüyor.Mevcut literatürde bu konu üçe ayrılabilir: enflasyonun ekonomik büyümeyi olumlu etkilediği, enflasyonun ekonomik büyümeyi olumsuz etkilediği, enflasyonun belli koşullarla ekonomik büyümeyi olumlu/olumsuz etkilediği. (Akinsola ve Odhiambo (2017)) Fakat yapılan araştırmaların geneline bakıldığında önemli olanın enflasyon oranından ziyade mevcut hükümetin aldığı önemler olduğu görülmektedir. Fiyat istikrarının sağlanması amacıyla hükümet çarpan etkisini göz ardı ederek toplam harcamaları azaltıcı politika uygularsa ekonomik büyümenin daha fazla azalmasına neden olabilir. Bu durumda pozitif ya da negatif bir etkiden bahsetmek için bazı değişkenlerin söz konusu olduğu söylenebilir.(Bahad vd. (2011)) 
+Yaptığım araştırmada verilere baktığımız zaman, Türkiye’nin diğer ülkelere oranla enflasyon seviyesinin çok yüksek olduğunu görmekteyiz. Fakat buna karşılık yine Türkiye’nin Gayri Safi Yurtiçi Hasılası diğer ülkelerden oldukça düşüktür. En düşük enflasyon oranı Fransa’da iken en yüksek Gayri Safi Yurtiçi Hasıla ise Hollanda’dır. Türkiye, 1970’lerde yüksek enflasyonun etkilerini yaşamış, 1980’lerde ise yetersiz yapısal uyumun olumsuz etkileriyle karşı karşıya kalmıştır. Ekonomi kısa vadeli sermaye girişleriyle desteklenmiş, büyümeyi teşvik eden uygulamalarda tüketim teşvik edilirken kamu sektörü finansman dengesi bozulmuştur.
+1990’larda meydana gelen stagflasyon sırasında, enflasyonun ekonomik büyümenin maliyeti olduğu görüşü yoğunluk kazanmıştır. (ALBAYRAK (t.y.)) Ekonomik büyümenin diğer etkenlerinin sabit tutulduğu bir araştırmada enflasyonun 10 puanlık artışından GSYH büyüme oranının %0,2-0,3 oranında azalarak etkilendiği görülmüştür. Bu da enflasyon oranının ekonomik büyüme üzerindeki etkisinin negatif olduğunu gösterir.(Gokal ve Hanif (2004))
+
 
 # Veri 
-Bu bölümde çalışmanızda kullandığınız veri setinin kaynağını, ham veri üzerinde herhangi bir işlem yaptıysanız bu işlemleri ve veri seti ile ilgili özet istatistikleri tartışınız. Bu bölümde tüm değişkenlere ait özet istatistikleri (ortalama, standart sapma, minimum, maksimum, vb. değerleri) içeren bir tablo (Tablo \ref{tab:ozet}) olması zorunludur. Tablolarınıza gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız. [@perkins:1991]
+Tablo 1'deki istatistiklerimize bakacak olursak 10 ülke (Türkiye, Avusturya, Kanada, Fransa, Almanya, Yunanistan, İtalya, Hollanda, Birleşik Krallık, ABD) ile OECD ülkelerinin 2018-2022 yılları arasında yıllık ekonomik büyüme verilerinin ortalamasının 50264.06 olduğunu, standart sapmasının 11546.57 olduğunu, minimum büyüme oranının 27973.90 olduğunu, medyan değerinin 50107.52 olduğunu ve son olarak maksimum büyüme oranın 70966.06 olduğunu görmekteyiz. Yine elimizdeki verilere bakarak 2018 yılında en düşük büyüme oranına 28281.47 ile Türkiye, en büyük büyüme oranına 62449.61 ile ABD sahiptir; 2019 yılında en düşük büyüme oranına 28011.32 ile yine Türkiye, en büyük büyüme oranına 64690.27 ile yine ABD sahiptir; 2020 yılında en düşük büyüme oranına 27973.90 ile tekrardan Türkiye, en büyük büyüme oranına 63480.86 ile ABD sahiptir; 2021 yılında en düşük büyüme oranına 30679.51 ile Türkiye, en büyük büyüme oranına 70181.12 ile ABD sahiptir; 2022 yılında en düşük büyüme oranına 37212.23 oranına Yunanistan, en büyük büyüme oranına 70966.06 ile Hollanda sahiptir.(Tablo \ref{tab:ozet})
+Tablo 2'deki istatistiklerimize dayanarak 10 ülke (Türkiye, Avusturya, Kanada, Fransa, Almanya, Yunanistan, İtalya, Hollanda, Birleşik Krallık, ABD) ile OECD ülkelerinin 2018-2022 yılları arasında yıllık enflasyon oranlarının ortalamasının 5.11, standart sapmasının 10.36, minimum enflasyon oranının -1.25, medyanının 2.09 ve maksimum enflasyon oranının 85.65 olduğunu söyleyebiliriz. Benzer şekilde 2018 yılında en düşük enflasyon oranı 0.1724595 ile Yunanistan'da, en büyük enflasyon oranı 17.9624100 ile Türkiye'de; 2019 yılında en düşük enflasyon oranı -0.1083450 ile bir önceki sene gibi Yunanistan'da, en büyük enflasyon oranı 19.5358200 ile yine Türkiye'de; 2020 yılında en düşük enflasyon oranı -1.2479720 ile Yunanistan'da, en büyük enflasyon oranı 13.8490000 ile Türkiye'de; 2021 yılında en düşük enflasyon oranı -0.6244386 ile Yunanistan'da, en büyük enflasyon oranı 24.2759300 ile Türkiye'de, 2022 yılında en düşük enflasyon oraekonomik büyüme oHollanda'da, en büyük enflasyon oranı 85.6452800 ile Türkiye'dedir.(Tablo \ref{tab:ozet})
+Ayrıca OECD en düşük ekonomik büyüme oranı 45196.03 verisiyle 2018 yılında, en büyük ekonomik büyüme oranına 49035.56 verisiyle 2021 yılında sahiptir. OECD'nin enflasyon verilerine bakacak olursak enflasyon oranının en düşük olduğu yıl 1.3467260ile 2020 iken en büyük olduğu yıl 13.1527900 ile 2022'dir.
 
-Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'a aktaran ve özet istatistikleri üreten kodlar yer almalıdır.
-
+.
 ```{r, echo=FALSE}
 library(tidyverse)
 library(here)
 eko <- read_csv(here("../data/eko.csv"))
+enf <- read_csv(here("../data/enf.csv"))
 
 ```
 
-Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
+
 
 ```{r, echo=FALSE}
 library(xtable) 
@@ -80,7 +76,7 @@ library(summarytools)
 st_options(lang = "tr")
 ```
 
-`echo=FALSE` seçeneği ile kodların türetilen pdf dosyasında görünmesini engelleyin ve sonuçlarınızı tablo halinde rapor edin.
+
 
 ```{r results='asis', echo=FALSE}
 eko %>%
@@ -92,35 +88,41 @@ eko %>%
   print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
 ```
 
+```{r results='asis', echo=FALSE}
+enf %>%
+  select("Value") %>% 
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>% 
+  xtable(caption = "Özet İstatistikler",
+         label = "tab:ozet",
+         align = c("l", "c", "c", "c", "c", "c")) %>% 
+  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+```
+
 
 # Yöntem ve Veri Analizi
-Bu bölümde veri setindeki bilgileri kullanarak çalışmanın amacına ulaşmak için kullanılacak yöntemleri açıklayın. Derste işlenen/işlenecek olan analiz yöntemlerinden (Hipotez testleri ve korelasyon analizi gibi) çalışmanın amacına ve veri setine uygun olanlar bu bölümde kullanılmalıdır. [@newbold:2003; @ozsoy:2010; @ozsoy:2014]
+Araştırmamda saçılım grafiğinden faydalandım. Edindiğimiz bilgiler ışığında ekonomik büyüme ile enflasyon arasında yadsınamaz bir ilişki olduğunu söyleyebiliriz. 2018, 2019, 2020, 2021 yıllarında en düşük ekonomik büyümeye sahip ülke ile en büyük enflasyon oranına sahip olan ülkenin Türkiye olduğunu görüyoruz.Bu karşılaştırmayı göz önünde bulundurduğumuz zaman enflasyonun, ekonomik büyümeye zararlı olduğunu savunabiliriz. Fakat tam tersi şeklinde baktığımızda yüksek ekonomik büyüme oranına sahip olan ülkeler aynı şekilde en düşük enflasyon oranına sahip ülkeler değiller. 
 
-Örneğin, regresyon analizi gerçekleştiriyorsanız tahmin ettiğiniz denklemi bu bölümde tartışınız. Denklemlerinizi ve matematiksel ifadeleri $LaTeX$ kullanarak yazınız.
-
-$$
-Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
-$$
-
-Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. Çalışmanıza uygun biçimde histogram, nokta grafiği (Şekil \@ref(fig:plot) gibi), kutu grafiği, vb. grafikleri bu bölüme ekleyiniz. Şekillerinize de gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız.
-
-
-```{r plot, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
-eko %>% 
+```{r plot, fig.align='center', fig.cap='Enflasyon Grafiği'}
+enf %>%
   ggplot(aes(x = TIME, y = Value)) +
   geom_point() +
   geom_smooth() +
   scale_x_continuous("TIME") + 
   scale_y_continuous("Value")
 ```
+```{r}
+ggplot(enf) +
+  aes(x = Value) +
+  geom_histogram()
+```
 
+(Şekil \@ref(fig:plot))
 
 # Sonuç
-Bu bölümde çalışmanızın sonuçlarını özetleyiniz. Sonuçlarınızın başlangıçta belirlediğiniz araştırma sorusuna ne derece cevap verdiğini ve ileride bu çalışmanın nasıl geliştirilebileceğini tartışınız.
+Analiz dönemi 2018-2022 yılları arasını kapsamamtadır. Çalışmada, son yıllarda enflasyon ve ekonomik büyüme arasındaki bağ hakkında yapılan açıklamalar ve yorumların yoğunlaştığı enflasyonun ekonomik büyüme için gerekli olup olmadığı sorusuna cevap aranmış, analiz döneminde ortaya çıkan krizin bu ilişkiye etkilerinin belirlenmesine çalışılmıştır.  
 
-**Kaynakça bölümü Rmarkdown tarafından otomatik olarak oluşturulmaktadır. Taslak dosyada Kaynakça kısmında herhangi bir değişikliğe gerek yoktur.** 
+Sonuç olarak, yüksek enflasyon oranında enflasyonun ekonomik büyüme oranı üzerinde önemli ve uzun süreli düşürücü etkisi varken düşük enflasyon oranında daha kısa süreli düşük vurgulu yükseltici etkisinin olması, Türkiye gibi enflasyonun önemli bir engel olduğu ülkelerde, yeterli bir büyümenin sağlanabilmesi için fiyat istikrarının sağlanması gerektiğini ortaya koymaktadır.
 
-**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
 
 \newpage
 # Kaynakça {#references}
